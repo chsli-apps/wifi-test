@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catholic Health Guest Wireless Network</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 2px;
+        }
+
+        section {
+            margin: 0 20px 10px 20px;
+            padding: 20px;
+            overflow-y: auto; 
+            overflow:scroll;
+            height: 200px;
+            flex: 1;
+        }
+
+        footer {
+            background-color: #005AE8;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom: 0;
+        }
+
+        /* Define your media queries for responsiveness */
+        @media (max-width: 768px) {
+            /* Adjust styles for tablets and smaller screens here */
+            header, nav, section, footer {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* Adjust styles for mobile devices here */
+            header, nav, section, footer {
+                padding: 5px;
+            }
+        }
+        .float-left {
+            float: left;
+        }
+        .margin-bottom {
+            margin-bottom: 8px;
+        }
+        .rounded-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #005AE8;
+            color: #fff;
+            border-radius: 25px; /* Adjust the border-radius for roundness */
+            text-decoration: none;
+            margin-right: 10px; /* Add margin between buttons */
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header style="display: flex; justify-content: center;">
+        <div style="display: flex; align-items: center;">
+            <img class="float-left" style="margin-right: 8px;" src="./assets/ch_v_pos_clr_rgb 2.png" alt="Catholic Health Logo">
+            <div class="float-left">Welcome to Catholic Health</div>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h3 class="center">Guest Wireless Internet Access</h3>
+
+            <div class="margin-bottom center"><i><strong>(please read and accept terms at bottom)</strong></i></div>
+            
+            <div class="margin-bottom">The Guest Wireless Internet Access provided by Catholic Health Services of Long Island (CHS) is for use free of charge to its Patients, Families and Guests. Wireless Access is provided on an “as is” and “as available” basis. CHS does not warrant that this service will be uninterrupted, error-free, or free of viruses or other harmful components. No information you consider confidential, including information pertaining to an individual’s medical condition or treatment, should be transmitted via this network. By using this network, you agree to be solely responsible for the content of all information you disseminate. You also agree to use this network in a responsible and lawful manner consistent with CHS’s public image. You agree that your use of the Guest Wireless Internet Access will be in compliance with all federal, state and local laws.</div>
+            
+            <div class="margin-bottom">Your use of this network is at your own risk. Users should be aware that there are security, privacy and confidentiality risks inherent in wireless communications and associated technology and CHS does not make any assurances or warranties relating to such risks. . CHS does not control any materials, information, products or services on the Internet. By using Guest Wireless Internet Access, users agree that CHS is not liable for any costs or damages, special, incidental or consequential, arising from the use of this service.</div>
+            
+            <div class="margin-bottom">Internet access is provided only as a courtesy on a first come-first served basis and may not be available at all times. CHS reserves the right to deny or restrict access to any user who abuses this network connection, including but not limited to such actions as excessive bandwidth consumption or using the network for any type of activity or purpose deemed by a regulatory authority to be unlawful, harassing, abusive, criminal or fraudulent.</div>
+            
+            <div class="margin-bottom">CHS reserves the right to monitor, intercept and disclose any transmissions over this network connection and to provide user information, or use records, and other related information under certain circumstances to appropriate authorities (for example, in response to lawful process, orders, subpoenas, or warrants, or to protect our rights, users or property). By accessing and using the Wireless Network you are consenting to system monitoring.</div>
+        </div>
+        <div class="center">
+            <a href="#" class="rounded-button">Accept</a>
+            <a href="#" class="rounded-button">Reject</a>        
+        </div>
+    </section>
+    <footer>
+        <div>By clicking Accept above, you are entering into a binding agreement.</div>
+    </footer>
+</body>
+</html>
